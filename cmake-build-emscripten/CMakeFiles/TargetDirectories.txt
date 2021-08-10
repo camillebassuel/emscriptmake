@@ -1,0 +1,3 @@
+C:/Users/ma quille/Documents/repos/emscriptmake/cmake-build-emscripten/CMakeFiles/edit_cache.dir
+C:/Users/ma quille/Documents/repos/emscriptmake/cmake-build-emscripten/CMakeFiles/cpp2wasm.dir
+C:/Users/ma quille/Documents/repos/emscriptmake/cmake-build-emscripten/CMakeFiles/rebuild_cache.dir
