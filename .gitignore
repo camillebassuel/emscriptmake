@@ -2,4 +2,4 @@
 wasm
 build
 .vscode
-cmake-buid-emscripten
+**/cmake-buid-emscripten
