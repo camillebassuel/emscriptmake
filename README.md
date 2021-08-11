@@ -1,7 +1,8 @@
 # emscriptmake
 buildable example to produces a JS bounded cpp lib 
 
-llvm has to be installed anbd environnment variable has to be set 
+CMake have to be installed as it's a CMake project :)
+After installation and environment variables settings created, the EMSDK directory contains all that is needed to compile the project
 
 #create the target directory called 'cmake-build-emscripten'
 mkdir cmake-build-emscripten
