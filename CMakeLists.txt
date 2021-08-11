@@ -21,7 +21,7 @@ add_executable(cpp2wasm ${SOURCES})
 set(CMAKE_EXECUTABLE_SUFFIX ".js")
 
      
- target_link_options(cpp2wasm
+target_link_options(cpp2wasm
     PRIVATE        
         --bind 
         -g -v
