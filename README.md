@@ -24,5 +24,3 @@ using node.js:
 npm install -g http-server
 cd /targetPAth/thetarget
 http-server
-
-browe to the test.html and open the Console: you should see results
