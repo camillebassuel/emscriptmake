@@ -1,15 +1,16 @@
 # emscriptmake
-buildable example to produces a JS bounded cpp lib 
 
+IN BRIEF
+simple example to produces a JS bounded cpp lib 
+BUILDING & TESTING  -  INSTRUCTIONS
 CMake have to be installed as it's a CMake project :)
 After installation and environment variables settings created, the EMSDK directory contains all that is needed to compile the project
-
-#create the target directory called 'cmake-build-emscripten'
+#create the target directory called 'thetarget'
 mkdir cmake-build-emscripten
 #to configure 
-emcmake cmake . -B cmake-build-emscripten -G Ninja
+emcmake cmake . -B thetarget -G Ninja
 #to build
-cmake --build .\cmake-build-emscripten
+cmake --build .\thetarget
 
 to test the api the test.html file is provided which link to the cmake-build-emscripten/cpp2wasm.js file produced by the compilation
 
@@ -21,7 +22,7 @@ python -m http.server -d .
 using node.js:
 #first install module
 npm install -g http-server
-cd /where-the-top-file-is
+cd /targetPAth/thetarget
 http-server
 
 browe to the test.html and open the Console: you should see results
